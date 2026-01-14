@@ -1,0 +1,44 @@
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+.stopwatch-card {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 16px;
+  background: #ffffff;
+  transition: background-color 0.3s;
+}
+
+
+.time-display {
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+
+button {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-mode .stopwatch-card {
+  background-color: #1f1f1f;
+}
+
+.dark-mode .btn-outline-secondary {
+  color: #ffffff;
+  border-color: #ffffff;
+}
